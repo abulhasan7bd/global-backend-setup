@@ -1,0 +1,63 @@
+1----package.json---->
+yarn -v
+yarn init // yarn init -y
+
+2----install need my package---->
+npm
+nodemon
+dotenv
+expreess
+
+3---devdependency------>
+yarn add -d nodemon
+
+4---file structure setup//mvc
+
+5-----why use to corse--->
+frontend theke jeno datagulo wread korte pare/kuno jamela na hoi se karone use korte hoh 
+yarn add cors 
+
+6.api.http file create---->
+http://localhost:3000/health
+
+7--->
+console.log(__dirname);
+console.log(process.cwd());
+
+
+8-----eslintSetup------>
+$ yarn add --dev  eslint
+confiq file create 
+$ npm init @eslint/config
+yarn run eslint src
+yarn run eslintcheck
+ "no-undef":{
+
+    }
+
+9-----prettiersetup---->
+$ yarn add --dev prettier
+   prettier file creae
+   .pretttiercc 
+   check 
+   "prettiercheck": "prettier src --check"
+   set------------->file 
+   {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  }
+
+10-------->
+.eslintignore
+     .env
+     nodemonules
+
+
+11---------->
+prettier fix
+    "prettiercheck": "prettier src --check",
+    "prettierfix": "prettier src --write"
+
+12==========>
+npm install --save-dev eslint-config-prettier
