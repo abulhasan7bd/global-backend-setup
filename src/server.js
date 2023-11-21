@@ -5,6 +5,7 @@ const { port } = require('./config/index')
 const { connectdb } = require('./database/connectdb')
 connectdb()
 
+console.log('abul hasan')
 app.listen(port, () => {
-  console.log(`Example app listening on portxxxxx ${port}`)
+  console.log(`Example app listening on${port}`)
 })

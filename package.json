@@ -11,12 +11,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-
     "eslintcheck": "eslint src", 
-
     "prettiercheck": "prettier src --check",
     "prettierfix":   "prettier src --write",
-    
     "lint-prettier":"yarn eslintcheck && yarn prettierfix"
   },
   "devDependencies": {
